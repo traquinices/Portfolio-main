@@ -245,6 +245,8 @@ header .hamburger.active span:nth-child(3) {
     margin-right: auto;
     display: block;
     text-align: center;
+      margin-top: 30px;
+    font-size: 25px;    
 }
 
 .home-section .btn {
@@ -265,17 +267,23 @@ header .hamburger.active span:nth-child(3) {
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
-    margin-top: 70px;
+    width: 260px;
+    height: 260px;
+    margin-top: 40px;
     border-radius: 50%;
     background-color: #222;
     background-image: url('Photos/Aura.png');
     background-size: cover;
-    box-shadow: 0 0 20px 10px #00ffe5;
+    box-shadow: 0 0 32px 16px #00ffe5;
     animation: glow 1s infinite alternate;
+    border: 4px solid #0bd3a1;
 }
 
+.intro {
+    max-width: 850px;
+    margin-top: 36px;
+    text-align: center;
+}
 .upi-logos {
     display: flex;
     justify-content: center;
