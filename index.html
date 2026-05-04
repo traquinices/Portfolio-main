@@ -1,10 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paulo Neves - Portfolio</title>
+    <title>Paulo Neves - Programador Java & Licenciado em Informática | Beja</title>
+    <meta name="description" content="Portfolio de Paulo Neves, programador Java e estudante de Engenharia Informática no Instituto Politécnico de Beja. Experiência em administração de sistemas, redes, bases de dados e desenvolvimento web.">
+    <meta name="keywords" content="Paulo Neves, programador Java, desenvolvimento de software, administração de sistemas, Engenharia Informática, Instituto Politécnico de Beja, profissional de IT, web developer">
+    <meta property="og:title" content="Paulo Neves - Programador Java & Engenharia Informática">
+    <meta property="og:description" content="Programador Java e estudante de Engenharia Informática no Instituto Politécnico de Beja. Competências em administração de sistemas, redes e desenvolvimento de software.">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Paulo Neves - Programador Java & Engenharia Informática">
+    <meta name="twitter:description" content="Programador Java e estudante de Engenharia Informática no Instituto Politécnico de Beja.">
+    <link rel="alternate" hreflang="pt" href="index.html">
+    <link rel="alternate" hreflang="en" href="index-en.html">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Electrolize&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
@@ -13,7 +22,7 @@
     <header>
         <div class="logo">
             <img src="Photos/portfolio.png" alt="portfolio Logo" />
-            <h1>Portfolio</h1>
+            <span class="logo-text">Portfolio</span>
         </div>
         <nav>
             <ul class="nav-links">
@@ -21,6 +30,7 @@
                 <li><a href="#services"><b>As Minhas Competências</b></a></li>
                 <li><a href="#knowme"><b>Sobre Mim</b></a></li>
                 <li><a href="#social-media"><b>Social Media</b></a></li>
+                <li><a href="#contact"><b>Contacta-me</b></a></li>
                 
             </ul>
             <div class="lang-switch">
@@ -39,9 +49,9 @@
 <section id="home" class="home-section">
     <div class="profile-image"></div>
     <div class="intro">
-        <h2>
+        <h1 class="home-h1">
             Olá, sou o <span id="name">Paulo Neves</span>, formado em Redes e Sistemas Informáticos e estudante de Engenharia Informática no Instituto Politécnico de Beja.
-        </h2>
+        </h1>
         <div id="home-txt">
             <p>
                 Tenho experiência académica e profissional em administração de sistemas, foco em Java e projetos práticos.<br>
@@ -141,6 +151,42 @@
 </section>
 
 
+
+
+<section id="contact" class="contact-section">
+    <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;">
+    <h2><b>Contacta-me</b></h2>
+    <p style="text-align: center; font-size: 20px; margin-bottom: 30px; color: #ccc;">
+        Tens um projeto em mente ou queres saber mais? Entra em contacto!
+    </p>
+    <div class="contact-grid">
+        <div class="contact-card">
+            <h3><b>Contrata-me</b></h3><br>
+            <p>Disponível para projetos freelance, estágios e colaborações em desenvolvimento de software, administração de sistemas e redes.</p>
+            <br>
+            <a href="mailto:paulomiguelneves@gmail.com" class="contact-email-btn">
+                <i class="fa fa-envelope"></i> paulomiguelneves@gmail.com
+            </a>
+        </div>
+        <div class="contact-card">
+            <h3><b>O que ofereço</b></h3><br>
+            <p>
+                — Desenvolvimento backend em Java<br>
+                — Desenvolvimento web (HTML, CSS, JS, PHP)<br>
+                — Administração de sistemas e redes<br>
+                — Design de bases de dados (SQL)<br>
+                — Suporte técnico e resolução de problemas
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="showreel" class="video-section">
+    <hr style="border: 1px solid #ffffff; width: 70%; margin: 20px auto;">
+    <video autoplay loop muted playsinline class="bg-video">
+        <source src="Photos/2887463-hd_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+</section>
 
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="script.js"></script>

@@ -1,4 +1,3 @@
-
 body {
     font-family: 'Electrolize', sans-serif;
     margin: 0;
@@ -181,14 +180,101 @@ header {
     margin-right: 10px;
     border-radius: 50%;
 }
-.logo h1 {
+.logo-text {
     font-size: 22px; 
     margin: 0;
+    color: #ddd;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 1000;
 }
 
-.logo {
+.home-h1 {
+    font-size: 40px;
+    margin-bottom: 32px;
+    color: #fff;
+    font-weight: 900;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+
+/* Contact section */
+.contact-section {
+    padding: 80px 20px;
+    color: #ccc;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-grid {
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.contact-card {
+    flex: 1;
+    min-width: 260px;
+    padding: 30px;
+    background-color: #000000;
+    border-radius: 15px;
+    border: 2px solid #00ffe5;
+    color: #00fff2;
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: left;
+}
+
+.contact-card:hover {
+    background-color: #00ffe5;
+    color: #030303;
+}
+
+.contact-card:hover .contact-email-btn {
+    background-color: #000;
+    color: #00ffe5;
+    border-color: #000;
+}
+
+.contact-email-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 12px 22px;
+    background-color: #00ffe5;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border: 2px solid #00ffe5;
+    transition: background-color 0.3s, color 0.3s;
+    word-break: break-all;
+}
+
+.contact-email-btn:hover {
+    background-color: #000;
+    color: #00ffe5;
+}
+
+/* Video section */
+.video-section {
+    padding: 40px 20px 60px;
+    text-align: center;
+}
+
+.bg-video {
+    width: 90%;
+    max-width: 1000px;
+    border-radius: 16px;
+    border: 2px solid #00ffe5;
+    box-shadow: 0 0 30px 6px rgba(0,255,229,0.2);
+    display: block;
+    margin: 0 auto;
 }
 
 header nav {
@@ -275,15 +361,6 @@ header .hamburger.active span:nth-child(3) {
 .home-section .btn:hover {
     background-color: #00ffe5;
     color: #030303;
-}
-
-.home-section h2 {
-    font-size: 40px;
-    margin-bottom: 32px;
-    color: #fff;
-    font-weight: 900;
-    letter-spacing: 1px;
-    line-height: 1.2;
 }
 
 #home-txt {
